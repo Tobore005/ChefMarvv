@@ -12,11 +12,12 @@ export default function Hero() {
   return (
     <section className="relative min-h-[100dvh] w-full bg-[#FDFCF8] overflow-hidden flex items-center pt-20 md:pt-0">
       {/* 1. BACKGROUND TEXT */}
-      <div className="absolute top-10 md:top-20 left-4 md:left-10 opacity-[0.08] select-none pointer-events-none">
-        <h1 className="font-[family-name:var(--font-playfair)] text-[30vw] md:text-[20vw] leading-none">
-          Marvv
-        </h1>
-      </div>
+      {/* 1. BACKGROUND TEXT - Forced Visibility Fix */}
+<div className="absolute top-10 md:top-20 left-4 md:left-10 z-0 select-none pointer-events-none">
+  <h1 className="font-[family-name:var(--font-playfair)] text-[30vw] md:text-[20vw] leading-none text-[#1C1C1C] opacity-10">
+    Marvv
+  </h1>
+</div>
 
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-8 items-center relative z-10">
         {/* 2. TEXT CONTENT */}
