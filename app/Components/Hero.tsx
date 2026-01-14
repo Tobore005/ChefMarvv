@@ -12,7 +12,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[100dvh] w-full bg-[#FDFCF8] overflow-hidden flex items-center pt-20 md:pt-0">
       {/* 1. BACKGROUND TEXT */}
-      <div className="absolute top-10 md:top-20 left-4 md:left-10 opacity-[0.03] select-none pointer-events-none">
+      <div className="absolute top-10 md:top-20 left-4 md:left-10 opacity-[0.08] select-none pointer-events-none">
         <h1 className="font-[family-name:var(--font-playfair)] text-[30vw] md:text-[20vw] leading-none">
           Marvv
         </h1>
