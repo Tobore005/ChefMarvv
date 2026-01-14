@@ -58,11 +58,13 @@ export default function AboutChef() {
 
             {/* 3. SIGNATURE DETAIL - Updated Specialties */}
             <motion.div 
-              initial={{ opacity: 0, scale: 0.95 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              className="pt-4 md:pt-8"
-            >
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.1 }} // 0.1 means it triggers as soon as it barely enters the screen
+  transition={{ duration: 0.8 }}
+>
+  {/* The rest of your Main Skills content */}
+            
               <div className="inline-block w-full md:w-auto p-5 md:p-6 border border-[#C6A76B]/20 bg-white/50 backdrop-blur-sm">
                 <div className="flex justify-around md:justify-start md:gap-12">
                   <div>
