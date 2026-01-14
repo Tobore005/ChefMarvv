@@ -60,25 +60,36 @@ export default function AboutChef() {
             <motion.div 
   initial={{ opacity: 0, y: 20 }}
   whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once: true, amount: 0.1 }} // 0.1 means it triggers as soon as it barely enters the screen
+  viewport={{ once: true, amount: 0.1 }} 
   transition={{ duration: 0.8 }}
+  className="pt-4 md:pt-8"
 >
-  {/* The rest of your Main Skills content */}
-            
-              <div className="inline-block w-full md:w-auto p-5 md:p-6 border border-[#C6A76B]/20 bg-white/50 backdrop-blur-sm">
-                <div className="flex justify-around md:justify-start md:gap-12">
-                  <div>
-                    <p className="text-[9px] md:text-[10px] uppercase tracking-widest text-[#C6A76B] font-bold">Main Skills</p>
-                    <p className="font-[family-name:var(--font-playfair)] italic text-lg md:text-xl">Cooking & Baking</p>
-                  </div>
-                  <div className="w-[1px] h-10 bg-[#C6A76B]/30" />
-                  <div>
-                    <p className="text-[9px] md:text-[10px] uppercase tracking-widest text-[#C6A76B] font-bold">Experience</p>
-                    <p className="font-[family-name:var(--font-playfair)] italic text-lg md:text-xl">8+ Years</p>
-                  </div>
-                </div>
-              </div>
-            </motion.div>
+  {/* Added a solid background and slightly darker border for better visibility */}
+  <div className="inline-block w-full md:w-auto p-5 md:p-6 border border-[#C6A76B]/40 bg-white shadow-sm">
+    <div className="flex justify-around md:justify-start md:gap-12">
+      <div>
+        {/* Made this slightly darker gold and font-extrabold to prevent "fading" */}
+        <p className="text-[10px] uppercase tracking-widest text-[#A68A56] font-extrabold mb-1">
+          Main Skills
+        </p>
+        <p className="font-[family-name:var(--font-playfair)] italic text-lg md:text-2xl text-[#1C1C1C]">
+          Cooking & Baking
+        </p>
+      </div>
+      
+      <div className="w-[1px] h-10 bg-[#C6A76B]/30" />
+      
+      <div>
+        <p className="text-[10px] uppercase tracking-widest text-[#A68A56] font-extrabold mb-1">
+          Experience
+        </p>
+        <p className="font-[family-name:var(--font-playfair)] italic text-lg md:text-2xl text-[#1C1C1C]">
+          8+ Years
+        </p>
+      </div>
+    </div>
+  </div>
+</motion.div>
           </div>
 
         </div>
