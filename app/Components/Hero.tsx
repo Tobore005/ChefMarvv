@@ -87,7 +87,7 @@ export default function Hero() {
           </motion.div>
 
           <div className="absolute top-1/2 -right-2 md:right-[10%] -translate-y-1/2 z-30 bg-[#C6A76B] text-[#FDFCF8] w-20 h-20 md:w-24 md:h-24 rounded-full flex flex-col items-center justify-center text-[8px] md:text-[10px] font-bold text-center p-2 rotate-12 shadow-xl border-4 border-[#FDFCF8]">
-            ESTD <br /> 2026 <br /> • <br /> PH
+            ESTD <br /> 2022 <br /> • <br /> PH
           </div>
         </div>
       </div>
