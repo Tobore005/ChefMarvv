@@ -7,28 +7,28 @@ const specialties = [
     desc: "Professional multi-course dining served in the comfort of your home.",
     tag: "Chef",
     size: "md:col-span-8", // Large horizontal box
-    img: "/private-chef.jpg" 
+    img: "/private-chef.jpeg" 
   },
   {
     title: "Artisan Bakery",
     desc: "Freshly baked sourdough, brioche, and specialty loaves made daily.",
     tag: "Baker",
     size: "md:col-span-4", // Tall vertical box
-    img: "/artisan-bread.jpg"
+    img: "/event-catering.jpeg"
   },
   {
     title: "Custom Cakes",
     desc: "Bespoke celebration cakes and luxury treats for your special moments.",
     tag: "Baker",
     size: "md:col-span-4",
-    img: "/luxury-cakes.jpg"
+    img: "/luxury-cakes.jpeg"
   },
   {
     title: "Event Catering",
     desc: "Premium food service for weddings, corporate events, and home parties.",
     tag: "Caterer",
     size: "md:col-span-8",
-    img: "/event-catering.jpg"
+    img: "/spag.jpeg"
   }
 ];
 

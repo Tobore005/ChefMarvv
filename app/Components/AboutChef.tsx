@@ -18,7 +18,7 @@ export default function AboutChef() {
             <div className="absolute -inset-2 md:-inset-4 border border-[#C6A76B]/30 z-0 translate-x-4 translate-y-4 md:translate-x-8 md:translate-y-8" />
             
             <img 
-              src="/cooking-hero.jpg" 
+              src="/cooking-hero.jpeg" 
               alt="Chef Marvv"
               className="w-full h-full object-cover relative z-10 grayscale hover:grayscale-0 transition-all duration-700 shadow-2xl rounded-sm"
             />
@@ -45,7 +45,7 @@ export default function AboutChef() {
               className="space-y-4 md:space-y-6 font-[family-name:var(--font-inter)] text-[#4A5D4E] text-base md:text-lg leading-relaxed max-w-xl mx-auto md:mx-0"
             >
               <p>
-                Based in <strong>Port Harcourt</strong>, Chef Marvv has spent over 8 years 
+                Based in <strong>Port Harcourt</strong>, Chef Marv has spent over 4 years 
                 perfecting the balance between professional kitchen service and the 
                 art of artisan baking.
               </p>
@@ -84,7 +84,7 @@ export default function AboutChef() {
           Experience
         </p>
         <p className="font-[family-name:var(--font-playfair)] italic text-lg md:text-2xl text-[#1C1C1C]">
-          8+ Years
+          4+ Years
         </p>
       </div>
     </div>

@@ -15,7 +15,7 @@ export default function Hero() {
       {/* 1. BACKGROUND TEXT - Forced Visibility Fix */}
 <div className="absolute top-10 md:top-20 left-4 md:left-10 z-0 select-none pointer-events-none">
   <h1 className="font-[family-name:var(--font-playfair)] text-[30vw] md:text-[20vw] leading-none text-[#1C1C1C] opacity-10">
-    Marvv
+    Marv
   </h1>
 </div>
 
@@ -39,7 +39,7 @@ export default function Hero() {
 
             <p className="font-[family-name:var(--font-inter)] text-[#4A5D4E] max-w-sm text-sm md:text-base leading-relaxed mb-8 md:mb-10 border-l-0 md:border-l border-[#C6A76B] md:pl-6">
               Your go-to for private dining, artisan breads, and luxury
-              catering. Chef Marvv handles the food, so you can enjoy the moment.
+              catering. Chef Marv handles the food, so you can enjoy the moment.
             </p>
 
             {/* UPDATED BUTTON */}
@@ -67,9 +67,9 @@ export default function Hero() {
             className="absolute top-0 right-0 w-[90%] md:w-4/5 h-[90%] md:h-[80%] z-0 rounded-t-full overflow-hidden shadow-xl"
           >
             <img
-              src="/cooking-hero.jpg"
+              src="/pasta.jpeg"
               className="w-full h-full object-cover"
-              alt="Gourmet Dish"
+              alt="Pasta Dish"
             />
           </motion.div>
 
@@ -80,7 +80,7 @@ export default function Hero() {
             className="absolute bottom-4 md:bottom-10 left-0 w-2/5 md:w-1/2 h-[40%] md:h-1/2 z-20 border-[6px] md:border-[12px] border-[#FDFCF8] shadow-2xl overflow-hidden"
           >
             <img
-              src="/baking-hero.jpg"
+              src="/chef.jpeg"
               className="w-full h-full object-cover"
               alt="Pastry Detail"
             />
